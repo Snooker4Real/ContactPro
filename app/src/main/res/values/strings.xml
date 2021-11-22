@@ -9,4 +9,7 @@
     <string name="add">Ajouter</string>
     <string name="cancel">Annuler</string>
     <string name="hint_favori">N° favori</string>
+    <string name="sms">SMS 📨</string>
+    <string name="localiser">Localiser 🗺</string>
+    <string name="appeler">Appeler 📞</string>
 </resources>

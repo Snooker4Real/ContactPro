@@ -115,14 +115,12 @@ public class MainActivity extends AppCompatActivity {
             // implémente la méthode onNomClick de l'interface OnNomClickListener
             @Override
             public void onNomClick(Contact contact) {
-                Toast.makeText(getApplicationContext(), "Item clicked", Toast.LENGTH_SHORT).show();
-                //Intent intent = new Intent(getApplicationContext(), DetailActivity.class);
-                //intent.putExtra();
-                //startActivity(intent);
+                //Toast.makeText(getApplicationContext(), "Item clicked", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), DetailActivity.class);
+                intent.putExtra(KEY_CONTACT, contact);
+                startActivity(intent);
             }
         });
         recyclerView.setAdapter(contactAdapter);
-
-
     }
 }

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fr.snooker4real.contactpro">
 
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/contact"
@@ -9,7 +11,12 @@
         android:roundIcon="@drawable/contact"
         android:supportsRtl="true"
         android:theme="@style/Theme.ContactPro">
-        <activity android:name=".AddContactActivity" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddContactActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
