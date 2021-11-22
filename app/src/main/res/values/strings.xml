@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ContactPro</string>
+    <string name="hint_prenom">Prénom</string>
+    <string name="hint_nom">Nom</string>
+    <string name="hint_societe">Société</string>
+    <string name="hint_adresse">Adresse</string>
+    <string name="hint_telephone">Tél</string>
+    <string name="hint_email">Email</string>
+    <string name="add">Ajouter</string>
+    <string name="cancel">Annuler</string>
+    <string name="hint_favori">N° favori</string>
+</resources>
